@@ -2,7 +2,6 @@
 	$dia = $_GET["dia"];
 	$mes = $_GET["mes"];
 
-	if ($mes>=3 && $mes<5) {
 		if($mes==3 && $dia>=21 && $dia<=31){
 			
 			echo "<h1>Seu signo é: Áries </h1><br>
@@ -28,9 +27,9 @@
 			Áries precisa de aprender que o ego nem sempre pode ser satisfeito instantaneamente.";
 		}
 			
-	} 
-	elseif ($mes>=4 && $mes<6) {
-		if($mes==4 && $dia>=21 && $dia<=30){
+
+	
+		elseif($mes==4 && $dia>=21 && $dia<=30){
 			
 			echo "<h1>Seu signo é: Touro </h1><br>
 			O Touro devolve-nos à terra e liga-nos ao mundo físico.
@@ -62,9 +61,8 @@
 			tomar decisões. Tudo a seu tempo. A resistência à mudança pode levar a comportamentos de teimosia mas, no
 			fundo, precisa apenas de se sentir seguro."; 
 		} 
-	}
-	elseif ($mes>=5 && $mes<7) {
-		if($mes==5 && $dia>=21 && $dia<=31){
+	
+		elseif($mes==5 && $dia>=21 && $dia<=31){
 
 			echo "<h1>Seu signo é: Gêmeos </h1><br>
 			O símbolo de Gêmeos sugere dualidade e esta é uma característica importante deste signo. Esta
@@ -94,9 +92,8 @@
 			mais apologistas da generalização do que da especialização, o que faz com que consigam dar uma mão a tudo e
 			evita o aborrecimento, a conceção de inferno na Terra para os geminianos."; 
 		}
-	}
-	elseif ($mes>=6 && $mes<8) {
-		if($mes==6 && $dia>=22 && $dia<=30){
+	
+		elseif($mes==6 && $dia>=22 && $dia<=30){
 
 			echo "<h1>Seu signo é: Câncer </h1><br>
 			À semelhança de todos os signos do Zodíaco do elemento Água, os nativos de Câncer (Caranguejo) são
@@ -126,9 +123,8 @@
 			signo são os melhores a cuidar dos outros. A Lua, seu planeta regente, simboliza a família, a maternidade e
 			o lar e estas preocupações estão no topo das prioridades de Câncer.";
 		}
-	}
-	elseif ($mes>=7 && $mes<9) {
-		if($mes==7 && $dia>=23 && $dia<=31){
+	
+		elseif($mes==7 && $dia>=23 && $dia<=31){
 
 			echo "<h1>Seu signo é: Leão </h1><br>
 			O signo Leão é o rei dos signos do Zodíaco e gosta de ser tratado com a reverência que o título
@@ -156,9 +152,8 @@
 			leva à depressão ou à doença. Mais do que qualquer outro signo, Leão floresce quando é reconhecido e definha
 			quando não tem o reconhecimento ou a atenção que pensa justa."; 
 		}
-	}
-	elseif ($mes>=8 && $mes<10) {
-		if($mes==8 && $dia>=23 && $dia<=31){
+	
+		elseif($mes==8 && $dia>=23 && $dia<=31){
 
 			echo "<h1>Seu signo é: Virgem </h1><br>
 			Virgem é o perfecionista do Zodíaco. Regido por Mercúrio, este nativo pode ganhar fama de ser
@@ -188,9 +183,8 @@
 			de um sentido de humor inteligente e agudo, Virgem tende a esconder este seu lado mais descontraído. Esperar
 			demasiado dos outros pode levar muito facilmente o virginiano ao desapontamento e à crítica."; 
 		}
-	}
-	elseif ($mes>=9 && $mes<11) {
-		if($mes==9 && $dia>=23 && $dia<=30){
+	
+		elseif($mes==9 && $dia>=23 && $dia<=30){
 
 			echo "<h1>Seu signo é: Libra </h1><br>
 			Equilíbrio e harmonia. Estas são duas características quase imediatamente reconhecidas aos nativos de
@@ -220,9 +214,9 @@
 			imbatíveis. Sempre à procura do consenso, a sua pergunta típica é (O que achas?). Também são rápidos a pedir
 			desculpa quando fazem alguma coisa errada."; 
 		}
-	}
-	elseif ($mes>=10 && $mes<12) {
-		if($mes==10 && $dia>=23 && $dia<=31){
+	
+	
+		elseif($mes==10 && $dia>=23 && $dia<=31){
 
 			echo "<h1>Seu signo é: Escorpião </h1><br>
 			Os nativos de Escorpião têm fama de serem complicados e misteriosos, reputação que pouco os incomoda.
@@ -252,9 +246,8 @@
 			planeta corregente na Astrologia Moderna. Na via negativa, Escorpião pode tornar-se numa pessoa vingativa e
 			ciumenta, incapaz de assumir soluções de compromisso.";
 		}
-	}
-	elseif ($mes>=11 && $mes<=12) {
-		if($mes==11 && $dia>=22 && $dia<=30){
+
+		elseif($mes==11 && $dia>=22 && $dia<=30){
 
 			echo "<h1>Seu signo é: Sargitário </h1><br>
 			Sagitário é cheio de energia e entusiasmo. Regido por Júpiter, este é o signo dos viajantes do
@@ -282,9 +275,9 @@
 			mundo, o nativo deste signo está sempre feliz e de bem com a vida. Sagitário também é o signo da mente
 			superior. Procura o sentido e a sabedoria com o mesmo apetite com que viaja."; 
 		}
-	}
-	elseif ($mes==12 || $mes==1) {
-		if($mes==12 && $dia>=22 && $dia<=31){
+	
+	
+		elseif($mes==12 && $dia>=22 && $dia<=31){
 
 			echo "<h1>Seu signo é: Capricórnio </h1><br>
 			Um Capricórnio típico é intrépido, firme, de pés bem assentes na terra e com objetivos definidos. Os
@@ -312,9 +305,9 @@
 			Capricórnio parece um adulto em ponto pequeno. O sentido de dever e a responsabilidade são atributos que
 			cedo se reconhecem nos nativos deste signo."; 
 		}
-	}
-	elseif ($mes>=1 && $mes<3) {
-		if($mes==1 && $dia>=20 && $dia<=31){
+	
+	
+		elseif($mes==1 && $dia>=20 && $dia<=31){
 
 			echo "<h1>Seu signo é: Aquário </h1><br>
 			Aquário é um signo de Ar, o elemento da mente e os nativos deste signo têm uma inteligência superior
@@ -346,9 +339,9 @@
 			facilmente a partir de uma amizade do que de um jogo de atração física. Sempre que possível, os nativos de
 			Aquário mantêm uma relação com de amizade com ex-amantes e companheiros(as)."; 
 		}
-	}
-	elseif ($mes>=2 && $mes<4) {
-		if($mes==2 && $dia>=19 && $dia<=29){
+	
+	
+		elseif($mes==2 && $dia>=19 && $dia<=29){
 
 			echo "<h1>Seu signo é: Peixes </h1><br>
 			Peixes é regido por Neptuno, o rei do mar. É muito raro o nativo de Peixes que não sente afinidade
@@ -380,7 +373,7 @@
 			Quando não encontra estabilidade nem regras, sente-se perdido o que faz com que se possa refugiar no seu
 			mundo de fantasia."; 
 		}
-	} else {
+	 else {
 		echo "Data Invalida!";
 	}
 
